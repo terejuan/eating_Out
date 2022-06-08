@@ -32,9 +32,14 @@ mydata <- select(GSS,race,age,eatout)
 mydata <- na.omit(mydata)
 ```
 
+```{r}
+barchartGC(~race + eatout,data=mydata)
+barchartGC(~race + eatout,data=mydata, type="percent")
+
+```
 
 
-
+In the percentile data we can see that white group go out to eat more then black group, and the white people go out to eat more than the other group. However looking at th black group and the others there isn’t  much of a difference. So this makes us wonder why do the white people go out to eat more then the other two groups?. In the frequency chart we see that we have about 1000 white guys and about 250 black guys and 150 other that did this survey. This might be a reason why the white group had a higher percentage in eating out because there were more of them doing the survey.
 
 
 
