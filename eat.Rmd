@@ -48,6 +48,14 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-In the first table date we see there an 83% of white people that do eat out more out of 100%, black eat out 70% more out of 100% and others eat out 73% more out of 100%. It seems to me that there isn't much of a difference between others and the black eating out but it its clear that the white eat out more than these two groups.
+In the first table date we see there is an 83% out of a 100% of white people that do eat out more, black eat out 70% more out of 100% and others eat out 73% more out of 100%. It seems to me that there isn't much of a difference between others and the black eating out but it its clear that the white eat out more than these two groups.
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+
 
 
