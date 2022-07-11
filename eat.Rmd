@@ -127,7 +127,7 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 fisherXY(mydata$race,mydata$eatout,printAll = TRUE)
 ```
 
-As we can see in the fisherXY test, we observe that white and black are different based on the p value of 0.0003864, being that white group go out to more than black. The white and other are not different based on the p value of 0.3543, being that they both go out eat about the same. Black and others are not different based on the p value of .2815, both groups go out to eat the same.  
+As we can see in the fisherXY test, we observe that white and black are different based on the p value of 0.0003864, being that white group go out to more than black. The white and other are not different based on the p value of 0.3543, being that they both go out eat about the same. Black and others are not different based on the p value of .2815, both groups go out to eat the same. We still see the same results yhay whites go out to eat more than the other two groups black and otheres.   
 
 
 
